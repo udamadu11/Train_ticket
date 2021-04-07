@@ -84,7 +84,7 @@
 
             <div class="mb-3">
                 <label for="time" class="form-label">Time</label>
-                <input type="time" class="form-control" name="time">
+                <input type="text" class="form-control" name="time">
                 <div class="redText"> <?php echo $errors['time']; ?>	</div>
             </div>
            

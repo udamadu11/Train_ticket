@@ -3,52 +3,52 @@
 <html>
 <head>
     <title>Edit Routes</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 </head>
 <body>
 <?php
     
         if(isset($_POST['submit'])){
 
-            $uid = $_POST['edit'];
+            $id = $_POST['edit'];
             //Retrive emplyee table data from id
-            $selectusers = "SELECT * FROM routes WHERE  id ='$uid' ";
+            $selectusers = "SELECT * FROM routes WHERE  id ='$id' ";
             //Performs query on database
             $userquery = mysqli_query($con,$selectusers);
             //Fetch result row as an Associative array
                 while($row = mysqli_fetch_assoc($userquery)){
                     //Display employee data by id
-                    echo "
-                            <form method=\"post\" class=\"form-1\">
-                                <h2>Edit User</h2>                   
-                                <p>First Name</p>
-                                <input type=\"text\" name=\"EditFName\" placeholder=\"Edit name\" value=\"{$row['f_name']}\">
+                    echo "<div class=\"container\">
+                    <form style=\"width:50%;margin-top: 100px;margin-left:300px\" method=\"POST\">
+                                <div class=\"alert alert-primary\" role=\"alert\">
+                                    <center>Edit Route</center>
+                                </div>
+                                <div class=\"mb-3\">
+                                    <label for=\"from_where\" class=\"form-label\">From</label>
+                                    <input type=\"text\" class=\"form-control\" name=\"from_where\" value=\"{$row['from_where']}\">
+                                </div>
+                    
+                                <div class=\"mb-3\">
+                                    <label for=\"to_where\" class=\"form-label\">To</label>
+                                    <input type=\"text\" class=\"form-control\" name=\"to_where\" value=\"{$row['to_where']}\">
+                                </div>
+                    
+                                <div class=\"mb-3\">
+                                    <label for=\"price\" class=\"form-label\">Price</label>
+                                    <input type=\"text\" class=\"form-control\" name=\"price\" value=\"{$row['price']}\">
+                                </div>
+                    
+                                <div class=\"mb-3\">
+                                    <label for=\"time\" class=\"form-label\">Time</label>
+                                    <input type=\"text\" class=\"form-control\" name=\"time\" value=\"{$row['time_sc']}\">
+                                </div>
 
-                                <p>Last Name</p>
-                                <input type=\"text\" name=\"EditLName\" placeholder=\"Edit name\" value=\"{$row['l_name']}\">
-
-                                <p>User Name</p>
-                                <input type=\"text\" name=\"EditUName\" placeholder=\"Edit name\" value=\"{$row['u_name']}\">    
-
-                                <p>Email</p>
-                                <input type=\"email\" name=\"EditEmail\" placeholder=\"email\" value=\"{$row['email']}\">
-
-                                <p>Telephone</p>
-                                <input type=\"number\" name=\"EditTelephone\" placeholder=\"telephone\" value=\"{$row['telephone']}\">
-
-                                <p>Nic</p>
-                                <input type=\"text\" name=\"EditNic\" placeholder=\"Edit Nic\" value=\"{$row['nic']}\">
-
-                                <p>Password</p>
-                                <input type=\"text\" name=\"EditPassword\" placeholder=\"Enter Password\" value=\"{$row['password']}\">
-
-                                <p>Type</p>
-                                <input type=\"number\" name=\"EditType\" placeholder=\"Type\" value=\"{$row['type']}\">
-
-                                <p></p>
-                                <input type=\"hidden\" value=" .$row['id']. " name=\"EditID\">
-                                <input type=\"submit\" name=\"EditSubmit\" value=\"EDIT\" class=\"btn-5\">
-                            </form>";
+                                <input type=\"hidden\" class=\"form-control\" name=\"id\" value=\"{$row['id']}\">
+              
+                                <button type=\"submit\" class=\"btn btn-primary\" name=\"submit2\" style=\"width:560px\" >Update</button>
+                            </form>
+                    </div>
+                            ";
 
 
             }       
@@ -56,28 +56,27 @@
         }
 
     ?>
+
+
+
     <?php 
-        if (isset($_POST['EditSubmit'])) {
+        if (isset($_POST['submit2'])) {
         $id = $_POST['id'];
-        $newFname = $_POST['EditFName'];
-        $newLname = $_POST['EditLName'];
-        $newUname = $_POST['EditUName'];
-        $newEmail = $_POST['EditEmail'];
-        $newTelephone = $_POST['EditTelephone'];
-        $newNic = $_POST['EditNic'];
-        $newPassword = $_POST['EditPassword'];
-        $newType = $_POST['EditType'];
+        $from_where = $_POST['from_where'];
+        $to_where = $_POST['to_where'];
+        $price = $_POST['price'];
+        $time = $_POST['time'];
 
         //Edit employee data by employee id
-        $EditQuery= "UPDATE employee SET f_name ='$newFname',l_name = '$newLname',u_name = '$newUname',email ='$newEmail',telephone ='$newTelephone',nic ='$newNic',password ='$newPassword',type ='$newType' WHERE id = '$uid' ";
+        $EditQuery= "UPDATE routes SET from_where ='$from_where',to_where = '$to_where',price = '$price',time_sc ='$time' WHERE id = '$id' ";
         $sqlQuery = mysqli_query($con,$EditQuery);
         if ($sqlQuery) {
             echo "<script>alert('Successfuly Upadated...')</script>";
-            echo "<script>window.open('viewEmployee.php','_self')</script>";
+            echo "<script>window.open('viewRoutes.php','_self')</script>";
         }
         else{
             echo "<script>alert('Unsuccessfuly Upadated...')</script>";
-            echo "<script>window.open('viewEmployee.php','_self')</script>";
+            echo "<script>window.open(''viewRoutes.php','_self')</script>";
         }
         }
         
