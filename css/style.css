@@ -1,0 +1,1010 @@
+
+.form-1{
+	float: left;
+	margin-top: 10px; 
+	margin-left: 450px;
+	background: #052C34;
+	color: #fff;
+	position: absolute;
+	box-sizing: border-box; 
+	padding:0px 20px;
+}
+.form-1 h2{
+	text-align: center;
+	font-size: 20px;
+}
+.form-1 .input_field-1{
+	position: relative;
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;
+
+}
+.form-1 p{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 17px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+	
+}
+.form-2{
+	float: center;
+	margin-top: 5px; 
+	margin-left: 300px;
+	background: none;
+	color: black;
+	position: absolute;
+	box-sizing: border-box; 
+	padding: 40px 30px;
+}
+
+.form-2 img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 320px;
+}
+.form-2 h2{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial black;
+}
+
+.form-2 .input_field-2{
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.form-2 .input_field-2 .input-1{
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+.form-2 p{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+	
+}
+.form-3{
+	float: center;
+	margin-top: 5px; 
+	margin-left: 400px;
+	background: none;
+	color: black;
+	position: absolute;
+	box-sizing: border-box; 
+	padding: 40px 30px;
+}
+.form-3 img{
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+	position: absolute;
+	top: 60px;
+	left: 320px;
+	
+}
+.form-3 h2{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial black;
+}
+.form-3 .input_field-3{
+	padding-bottom: 10px;
+	position: relative;
+}
+.form-3 .input_field-3 .input-2{
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+
+.form-3  p{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+	
+}
+.form-4{
+	float: left;
+	margin-top: 20px; 
+	margin-left: 450px;
+	background: #052C34;
+	color: #fff;
+	position: absolute;
+	box-sizing: border-box; 
+	padding: 40px 30px;
+}
+.form-4 img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 320px;
+}
+.form-4 h2{
+	text-align: center;
+	font-size: 20px;
+}
+.form-4 .input_field-4{
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.form-4 .input_field-4 .input-3{
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+.form-4 p{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.form-5{
+	float: center;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.form-6 .input-4{
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 10px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;
+	
+}
+.form-7{
+	float: left;
+	margin-top: 30px; 
+	margin-left: 50px;
+}
+.form-7 h2{
+	font-size: 20px;
+}
+.form-7 .input_field-5{
+	padding-bottom: 10px;
+	position: relative;
+}
+.form-7 .input_fields-5 .input-5{
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 10px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;
+	
+}
+.form-8{
+	float: right;
+	margin-top: 30px; 
+	margin-right: 100px;
+}
+.form-8 h2{
+	font-size: 20px;
+}
+.form-8 .input_field-6{
+	padding-bottom: 10px;
+	position: relative;
+}
+.search_by_category .input_field-6 .input-6{
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 10px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+
+input[type="date"],input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+	width: 300px;
+	border: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;
+}
+.btn-1 , .btn-2 , .btn-3{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	background-color: #127D93; 
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.btn-1:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+.btn-2:hover{
+	cursor: pointer;
+	background: tomato;
+	color: black;
+}
+.btn-3{
+	margin-left: 100px;
+}
+.btn-3:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+.btn-4{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	background-color: black; 
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	border: 1px solid #F0F3F4;
+}
+.btn-4:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+.btn-5{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	background-color: #127D93; 
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.btn-5:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+.btn-6{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 120px;
+	background-color: #127D93; 
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.btn-6:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+.btn-7{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 160px;
+	background-color: #127D93; 
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 60px;
+}
+.btn-7:hover{
+	cursor: pointer;
+	background: #94DAE8;
+	color: #000;
+}
+select{
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 6px 30px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+.redText{
+	color: red;
+	font-size: 15px;
+	
+}
+.error-msg{
+	width: 300px;
+	text-align: center;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.sidenav{
+	height: 100%;/*100% full height */
+	width: 250px;
+	position: fixed;
+	z-index: 1;  
+	top : 0;
+	left: 0;
+	background-color: #222;
+	overflow-x: hidden; /* disable the horsontal scroll */
+	transition: 0.3s;
+}
+.sidenav a{
+	margin-top: 10px;
+	padding: 4px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+
+}
+.sidenav a:hover{
+	color: #f1f1f1;
+}
+
+@media screen and (max-height: 400px) {
+  .sidenav {padding-top: 8px;}
+  .sidenav a {font-size: 16px;}
+}
+a{text-decoration: none;}
+.topnav{
+	top : 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	position: fixed;
+
+}
+.topnav img{
+	float: left;
+	margin-left: 10px;
+	height: 60px;
+	width: 60px;
+}
+.topnav h4{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: -5px 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.topnav h4:hover{
+	color: #818181;
+}
+
+.topnav a{
+	float: right;
+	color: white;
+	list-style: none;
+	padding: 8px 12px;
+	margin-right: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+	list-style: none;
+	margin-top: 15px;
+}
+.topnav p{
+	float: right;
+	color: white;
+	list-style: none;
+	padding: 8px 12px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+.topnav p:hover{
+	color: white;
+}
+.topnav a:hover{
+	color: white;
+}
+.topnav img{
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+.drop-btn{
+	background-color: #222;
+	color: #818181;
+	padding: 12px;
+	font-size: 15px;
+	border: none;
+	margin-left: 20px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+
+}
+.dropdown{
+	position: absolute;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #222;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.dropdown-content a{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+.dropdown-content a:hover{
+	color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .drop-btn{
+	background-color: #f1f1f1;
+}
+/*login css*/
+#fade-box {
+  animation: input-entry 1s ease-in;
+  z-index: 4;
+}
+
+.login form {
+  animation: form-entry 1s ease-in-out;
+  background: #111;
+  background: linear-gradient(#74ebe6, #74ebe6);
+  border: 6px solid #74ebe6;
+  box-shadow: 0 0 15px #74ebe6;
+  border-radius: 5px;
+  display: inline-block;
+  height: 220px;
+  margin: 270px auto 0;
+  position: relative;
+  z-index: 4;
+  width: 500px;
+  transition: 1s all;
+}
+.login form:hover {
+  border: 6px solid #74ebe6;
+  box-shadow: 0 0 25px #74ebe6;
+  transition: 1s all;
+}
+.login input {
+  background: #222;
+  background: linear-gradient(#333333, #222222);
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #000;
+  color: #888;
+  display: block;
+  font-family: 'Cabin', helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 20px auto 10px;
+  padding: 0 10px;
+  text-shadow: 0 -1px 0 #000;
+  width: 400px;
+}
+.login input:focus {
+  animation: box-glow 1s ease-out infinite alternate;
+  background: #0B4252;
+  background: linear-gradient(#333933, #222922);
+  border-color: #00fffc;
+  box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
+  color: #efe;
+  outline: none;
+}
+.login input:invalid {
+  border: 2px solid  #00fffc;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.2), inset 0 0 5px rgba(255, 0, 0, 0.1), 0 2px 0 black;
+}
+.login button {
+  animation: input-entry 1s ease-in;
+  background: #222;
+  background: linear-gradient(#333333, #222222);
+  box-sizing: content-box;
+  border: 1px solid #444;
+  border-left-color: #000;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #000;
+  color: #fff;
+  display: block;
+  font-family: 'Cabin', helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-shadow: 0 -1px 0 #000;
+  width: 400px;
+  transition: 1s all;
+}
+.login button:hover,
+.login button:focus {
+  background: #0C6125;
+  background: linear-gradient(#393939, #292929);
+  color: #00fffc;
+  outline: none;
+  transition: 1s all;
+}
+.login button:active {
+  background: #292929;
+  background: linear-gradient(#393939, #292929);
+  box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+  top: 1px;
+}
+
+/* =========================================
+Spinner
+========================================= */
+#circle1 {
+  animation: circle1 1s linear infinite, circle-entry 1s ease-in-out;
+  background: #74ebe6;
+  border-radius: 100%;
+  border: 10px solid #74ebe6;
+  box-shadow: 0 0 0 2px black, 0 0 0 6px #74ebe6;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left: -250px;
+  overflow: hidden;
+  opacity: 1.5;
+  z-index: -3;
+}
+
+#inner-cirlce1 {
+  background: #222;
+  border-radius: 100%;
+  border: 36px solid #74ebe6;
+  height: 460px;
+  width: 460px;
+  margin: 10px;
+}
+#inner-cirlce1:before {
+  content: ' ';
+  width: 240px;
+  height: 480px;
+  background: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#inner-cirlce1:after {
+  content: ' ';
+  width: 480px;
+  height: 240px;
+  background: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* =========================================
+Hexagon Mesh
+========================================= */
+.hexagons {
+  animation: logo-entry 1s ease-in;
+  /*background:url(http://fc03.deviantart.net/fs71/i/2012/237/c/7/jarvis_rainmeter_skin_by_ingwey-d5cc571.png);*/
+  color: #000;
+  font-size: 52px;
+  font-size: 5.1rem;
+  letter-spacing: -0.2em;
+  line-height: 0.7;
+  position: absolute;
+  text-shadow: 0 0 6px #74ebe6;
+  top: 1px;
+  width: 100%;
+  /*transform: perspective(60px)  scale(2.4);*/
+  z-index: -3;
+}
+#logo {
+  animation: logo-entry 1.5s ease-in;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 40;
+}
+.login-main h1 {
+  animation: text-glow 1s ease-out infinite alternate;
+  font-family: 'Ubuntu', sans-serif;
+  color: #74ebe6;
+  font-size: 48px;
+  font-size: 4.8rem;
+  font-weight: bold;
+  position: absolute;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  top: 50px;
+}
+.login-main h1:before {
+  animation: before-glow 2s ease-out infinite alternate;
+  border-left: 535px solid transparent;
+  border-bottom: 10px solid #74ebe6;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  right: -74px;
+  top: -10px;
+  width: 0;
+}
+.login-main h1:after {
+  animation: after-glow 2s ease-out infinite alternate;
+  border-left: 100px solid transparent;
+  border-top: 16px solid #74ebe6;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  right: -85px;
+  top: 24px;
+  transform: rotate(-47deg);
+  width: 0;
+}
+
+/* =========================================
+Animation Keyframes
+========================================= */
+@keyframes logo-entry {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes circle-entry {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes input-entry {
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes form-entry {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+  }
+
+  20% {
+    height: 0;
+    border: 1px solid #00a4a2;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+  }
+
+  40% {
+    width: 0;
+    height: 220px;
+    border: 6px solid #00a4a2;
+    opacity: 1;
+    padding: 0;
+  }
+
+  100% {
+    height: 220px;
+    width: 500px;
+  }
+}
+
+@keyframes box-glow {
+  0% {
+    border-color: #00b8b6;
+    box-shadow: 0 0 5px rgba(0, 255, 253, 0.2), inset 0 0 5px rgba(0, 255, 253, 0.1), 0 2px 0 black;
+  }
+
+  100% {
+    border-color: #00fffc;
+    box-shadow: 0 0 20px rgba(0, 255, 253, 0.6), inset 0 0 10px rgba(0, 255, 253, 0.4), 0 2px 0 black;
+  }
+}
+
+@keyframes text-glow {
+  0% {
+    color: #00a4a2;
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  }
+
+  100% {
+    color: #00fffc;
+    text-shadow: 0 0 20px rgba(0, 255, 253, 0.6), 0 0 10px rgba(0, 255, 253, 0.4), 0 2px 0 black;
+  }
+}
+
+@keyframes before-glow {
+  0% {
+    border-bottom: 10px solid #00a4a2;
+  }
+
+  100% {
+    border-bottom: 10px solid #00fffc;
+  }
+}
+
+@keyframes after-glow {
+  0% {
+    border-top: 16px solid #00a4a2;
+  }
+
+  100% {
+    border-top: 16px solid #00fffc;
+  }
+}
+
+@keyframes circle1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.login-main {
+  background: #222;
+  background-size: cover;
+  font-size: 10px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.login-main h4 {
+  animation: text-glow 2s ease-out infinite alternate;
+  font-family: 'Ubuntu', sans-serif;
+  color: #74ebe6;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+
+/* =========================================
+chat app
+========================================= */
+
+.left-sidebar{
+	background-color: #3A3A3A;
+	overflow: hidden;
+}
+.searchbox{
+
+	width: 100%;
+	padding: 31px 10px;
+	border-bottom: 2px solid #000;
+}
+.form-control,.search-icon,.search-icon:hover{
+	background-color: #6A6C75;
+	border: 1px solid #fff;
+	color: #fff;
+	box-shadow: none !important;
+}
+.form-control:focus{
+	border:1px solid #fff;
+}
+.right-header-img{
+	float: left;
+}
+.left-chat{
+	position: absolute;
+	overflow-y: scroll;
+}
+.left-chat ul{
+	overflow: hidden;
+}
+.left-chat ul li{
+	list-style: none;
+	width: 100px;
+	float: left;
+	margin: 10px 0px 8px 10px;
+}
+.chat-left-img img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: left;
+	float: fixed;
+	border: 3px solid #686f79;
+}
+.chat-left-detail{
+	margin-left: 10px;
+}
+.chat-left-detail p{
+	margin: 0px;
+	color: #fff;
+	padding: 7px 0px 0px;
+}
+.chat-left-detail span{
+	color: #88BB71;
+}
+.chat-left-detail span i{
+	color: #86BB71;
+	font-size: 10px;
+}
+.chat-left-detail .orange{
+	color: #E38968;
+}
+.right-sidebar{
+	border-left: 2px solid #000;
+}
+.right-header{
+	background-color: #3A3A3A;
+	color: #fff;
+	border-bottom: 2px solid #000;
+	
+}
+.right-header-img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.right-header-details p{
+	
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	padding: 2px;
+	margin-left: 10px;
+	margin-top: 10px
+}
+.right-header-details span{
+	color: #9FA5AF;
+	font-size: 12px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px
+}
+.right-header-details button{
+	float: right;
+	margin-top: 30px;
+	
+}
+.rightside-left-chat{
+	float: left;
+	width: 80%;
+	position: relative;
+}
+.rightside-right-chat{
+	float: right;
+	width: 80%;
+	position: relative;
+	margin-right: 35px;
+}
+.right-header-contentChat{
+	overflow-y: scroll;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.right-header-contentChat ul li{
+	list-style: none;
+	margin-top: 20px;
+}
+.right-header-contentChat .rightside-left-chat p, .right-header-contentChat .rightside-right-chat p{
+	background-color: #86BB71;
+	padding: 15px;
+	border-radius: 8px;
+	color: #fff;
+}
+.right-header-contentChat .rightside-right-chat p{
+	background-color: #94C2ED;
+}
+.rightside-chat-textbox input{
+	width: 80%;
+	height: 40px;
+	border: 2px solid #3d85ca;
+	border-radius: 5px;
+	padding: 0px 10px;
+	border: 1px solid #c1c1c1;
+}
+.rightside-chat-textbox button{
+	height: 40px;
+	width: 70px;
+	margin-left: 10PX;
+}
+.rightside-left-chat span i,.rightside-right-chat span i{
+	color: #86BB71;
+	font-size: 12px;
+}
+.rightside-right-chat span i{
+	color: #94C2ED
+}
+.rightside-right-chat span{
+	float: right;
+}
+.rightside-right-chat span small, .rightside-left-chat span small{
+	color: #BDBDC2;
+}
+
+@media only screen and (max-width: 320px){
+	.main-section{
+		display: none;
+	}
+}
+
+
