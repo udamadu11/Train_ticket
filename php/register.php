@@ -84,11 +84,11 @@
 		<h3 class="error-msg"><?php include('include/message.php'); ?></h3> 
 		<h2>User Registration</h2>
 		<div class="input_field-5">
-            <div class="mb-3">
+
 				<p>First Name</p>
 				<input type="text"  name="first_name" id="first_name" placeholder="Enter First Name" required>
 				<div class="redText"> <?php echo $errors['first_name']; ?>	</div>
-            </div>
+				
 				<p>Last Name</p>
 				<input type="text" class="input-4" name="last_name" id="last_name" placeholder="Enter Last Name" required>
 				<div class="redText"> <?php echo $errors['last_name']; ?>	</div>
