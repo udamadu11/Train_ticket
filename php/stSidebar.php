@@ -19,7 +19,8 @@
 <body>
 <div class="sidenav">
 		<a href="#" target="main" style="margin-top: 20px;">DashBoard</a>
-		</div>
+		<a href="viewPrice.php" target="main" style="margin-top: 20px;">Price Update</a>
+        <a href="viewTimeSchedule.php" target="main" style="margin-top: 20px;">Time Update</a>
 	</div>
 </body>
 </html>

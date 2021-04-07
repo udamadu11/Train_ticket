@@ -19,7 +19,8 @@
 <body>
 <div class="sidenav">
 		<a href="#" target="main" style="margin-top: 20px;">DashBoard</a>
-		<a href="ownerViewDrug.php"	target="main">Drugs</a>
+		<a href="viewRoutes.php" target="main">View Routes</a>
+        <a href="addUsers.php" target="main">Add Users</a>
 		</div>
 	</div>
 </body>

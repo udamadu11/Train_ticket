@@ -7,7 +7,7 @@
 		session_unset($_SESSION['first_name']);
 		session_unset($_SESSION['role']);
 		session_unset($_SESSION['id']);
-		header("Location: login.php");
+		header("Location: signIn.php");
 		exit();
 	}
 ?>

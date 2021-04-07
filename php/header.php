@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="topnav">
-		<img src="../img/man11.png">
+		<img src="../img/batch.png" style="width='40px'">
 		<h4>E-Train</h4>	
 
 		<?php  

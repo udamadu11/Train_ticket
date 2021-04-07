@@ -41,7 +41,7 @@
 		else{
 			//Generate error msg
 			$message = base64_encode(urlencode("Invalid User Name or Password"));
-        	header('Location:login.php?msg=' . $message);
+        	header('Location:signIn.php?msg=' . $message);
         	exit();
 		}
 
