@@ -82,7 +82,7 @@
             <div class="card-body">
                <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:390px">Travel</button>
+                  <a href="travel.php"><button type="button" class="btn btn-outline-primary" style="width:300px">Travel</button></a>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:390px">Reservation</button>
+                  <button type="button" class="btn btn-outline-primary" style="width:300px">Reservation</button>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:390px">Cancel Reservation</button>
+                  <button type="button" class="btn btn-outline-primary" style="width:300px">Cancel Reservation</button>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@
             <div class="card-body">
              <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-					    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal" style="width:390px">Account</button>
+					    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal" style="width:300px">Account</button>
               <?php include('accountUpdate.php'); ?>
 			      </div>
           </div>
@@ -133,7 +133,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:390px"><a href="paymentDetails.php">Bank Details</a></button>
+                <a href="paymentDetails.php"><button type="button" class="btn btn-outline-primary" style="width:300px">Bank Details</button></a>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:390px">Update Destination</button>
+                <a href="viewTicket.php"><button type="button" class="btn btn-outline-primary" style="width:300px">View Ticket</button></a>
                 </div>
               </div>
             </div>

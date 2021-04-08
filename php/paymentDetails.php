@@ -50,15 +50,44 @@
 		}
     }
 ?>
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
-<div class="container" style="margin-left:400;margin-top:200px">
+</head>
+<body>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="passenger.php" class="navbar-brand d-flex align-items-center">
+        <strong>E-Train</strong>
+      </a>
+      <form method="post" action="logout.php">
+		<a href ="logout.php" target="_header" name="logout">Log Out</a>
+	</form>
+    </div>
+  </div>
+</header>
+<div class="container" style="margin-left:300px;margin-top:200px">
     <div class="row">
-        <div class="col-xs-12 col-md-5">
+        <div class="col-xs-12 col-md-7">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
@@ -105,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-success" style="width:400px" name="submit">Add Payment Details</button>
+                    <button class="btn btn-success" style="width:600px" name="submit">Add Payment Details</button>
                     </form>
                 </div>
             </div>
@@ -113,4 +142,8 @@
         </div>
     </div>
 </div>
+
+</body>
+</html>
+
 
