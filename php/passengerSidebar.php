@@ -19,6 +19,7 @@
 <body>
 <div class="sidenav">
 		<a href="#" target="main" style="margin-top: 20px;">DashBoard</a>
+        <a href="paymentDetails.php" target="main" style="margin-top: 20px;">payment</a>
 		</div>
 	</div>
 </body>
