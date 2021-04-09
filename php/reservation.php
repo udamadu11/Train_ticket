@@ -4,7 +4,7 @@
     //Unauthorized Access Check
     checkSession();
     if(!isset($_SESSION['first_name']) || $_SESSION['role'] != '4'){
-       header("Location:login.php");
+       header("Location:signIn.php");
        exit();
        }
 
@@ -36,7 +36,7 @@
 </header>
 	<div class="container" style="margin-top: 50px;">
 	<div class="alert alert-info" role="alert" style="font-weight:bold;font-size: 24px;">
-  		<center>Travel Distance</center>
+  		<center>Reservation</center>
 		</div>
   			<form method="post">
   			<div class="row">
@@ -79,13 +79,16 @@ include('include/connection.php');
 									<td>".$row['to_where']."</td>
 									<td>".$row['price']."</td>
 									<td>".$row['time_sc']."</td>
+                                    <form method=\"post\">
+                                    <td>
+                                        <input type=\"date\" class=\"form-control\"  id=\"dates\" name=\"dates\">
+                                    </td>
 									<td>
-										<form method=\"post\">
-											<div class=\"form-group\">
-	    								
-	    										<input type=\"number\" class=\"form-control\"  placeholder=\"Quantity\" name=\"quantity\" min=\"1\">
-	 										</div>
+										<div class=\"form-group\">
+	    									<input type=\"number\" class=\"form-control\"  placeholder=\"Quantity\" name=\"quantity\" min=\"1\">
+	 									</div>
 	 								</td>
+                                     
 	 								<td>
 											<input type=\"hidden\" value=".$row['from_where']." name=\"from_where\">
 											<input type=\"hidden\" value=".$row['to_where']." name=\"to_where\">
@@ -112,8 +115,8 @@ include('include/connection.php');
 		$total = $price * $qty;
 		$user = $_SESSION['first_name'];
 		$uid = $_SESSION['id'];
-
-		$s = "INSERT INTO traval (user_name,uid,from_where,to_where,price,quantity,total,date)VALUES('$user','$uid','$from','$to','$price','$qty','$total',now())";
+        $newDate =  date('Y-m-d', strtotime($_POST['dates']));
+		$s = "INSERT INTO reservation (user_name,uid,from_where,to_where,price,quantity,total,date)VALUES('$user','$uid','$from','$to','$price','$qty','$total','$newDate')";
 		$r = mysqli_query($con,$s);
 		if($r){
 			echo "<script>alert('success')</script>";

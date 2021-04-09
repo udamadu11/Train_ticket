@@ -94,7 +94,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:300px">Reservation</button>
+                <a href="reservation.php"><button type="button" class="btn btn-outline-primary" style="width:300px">Reservation</button></a>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-primary" style="width:300px">Cancel Reservation</button>
+                <a href="viewReservation.php"><button type="button" class="btn btn-outline-primary" style="width:300px">Cancel Reservation</button></a>
                 </div>
               </div>
             </div>

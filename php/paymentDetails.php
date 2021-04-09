@@ -44,7 +44,9 @@
 			//$massage = base64_encode(urlencode("Successfully Added"));
 			//header('Location:addUser.php?msg=' .$massage);
 			if ($sqlResult) {
-            echo "<script>window.open('paymentDetails.php','_self')</script>";
+                echo "<script>alert('Success')</script>";
+            echo "<script>window.open('passenger.php','_self')</script>";
+
 			}
 			exit();
 		}
@@ -57,13 +59,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
