@@ -82,11 +82,9 @@
           $sqlQuery = mysqli_query($con,$EditQuery);
           if ($sqlQuery) {
               echo "<script>alert('Successfuly Upadated...')</script>";
-              echo "<script>window.open('passenger.php','_self')</script>";
           }
           else{
               echo "<script>alert('Unsuccessfuly Upadated...')</script>";
-              echo "<script>window.open('passenger.php','_self')</script>";
           }
           }
             ?>

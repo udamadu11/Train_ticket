@@ -53,8 +53,9 @@
 				    	$ownerQuery = "SELECT  * FROM users";
 
 				    ?>
-				    <a href="#"><button class="btn btn-primary" data-toggle="modal" data-target="#form_profile"><i class="fa fa-edit">&nbsp;</i>Edit Profile</button></a>
+				    <a href="#"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-edit">&nbsp;</i>Edit Profile</button></a>
 				    <a href="viewEmployee.php" class="btn btn-primary" style="margin-left: 10px;">Manage Users</a>
+                    <?php include('accountUpdate.php'); ?>
 				  </div>
 				</div>
 			</div>
@@ -100,11 +101,11 @@
 			<script type="text/javascript">
 				<?php
 				//Select drug name and current stock from stock table
-					$queryStock = "SELECT user_name,total FROM traval";
+					$queryStock = "SELECT date,sum(total) FROM traval GROUP BY date";
 				//Performs a query on database
 					$selectStock = mysqli_query($con,$queryStock);
 
-					$result_fast_move = mysqli_query($con, "SELECT sum(total),date FROM traval");
+					$result_fast_move = mysqli_query($con, "SELECT user_name,total FROM reservation");
 
 				 ?>
 				 //Google developoer bar chart
@@ -131,7 +132,7 @@
 			<?php } ?>
 
         // Optional; add a title and set the width and height of the chart
-        var options = {'title': 'Ticket Selling', 'width': 500, 'height': 500};
+        var options = {'title': 'Reservation', 'width': 500, 'height': 500};
         // Display the chart inside the <div> element with id="piechart"
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
         chart.draw(data, options);
